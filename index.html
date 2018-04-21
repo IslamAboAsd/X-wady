@@ -13,9 +13,22 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
 <!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
 <!-- /STYLES -->
+<style>
+     footer{
+         position: absolute;
+         bottom: 0;
+         right: 0;
+         left: 0;
+         border-top:1px solid #333!important
+     }
+    footer .navbar-nav>li>a{
+    color: #333!important
+}
 
+</style>
 </head>
 <body>
    
@@ -24,22 +37,21 @@
    <nav class="navbar">
         <div class="container-fluid">
           <div class="navbar-header">
-               
-            <div class="logo-head">
-                    <img src="images/icons/logo.png" alt="logo" title="logo">
-                    <strong>Coloers</strong><br>
-                <span>Medical Laboratories</span>
-           </div> 
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span> 
             </button>
-                     </div>
+            <div class="logo-head">
+                    <img src="images/icons/logo.png" alt="logo" title="logo">
+                    <strong>Coloers</strong><br>
+                <span>Medical Laboratories</span>
+           </div> 
+               </div>
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
               <li><a href="#">News & Events</a></li> 
               <li><a href="#">Calculat</a></li> 
               <li><a href="#">Contact us</a></li> 
@@ -53,108 +65,51 @@
           </div>
         </div>
       </nav>
+      <header>
+          <div class="top-header">
+          <h2>Doctor Department</h2>
+          <p>Please login or register to prview your patients</p>
+          <button style="background:#ffbb00">Login</button>
+          <button style="background:#704a92" type="button"  data-toggle="modal" data-target="#myModal"> Register</button>
 
-<section class="main">
-    <div class="">
+          </div>
+      </header>
+      <section class="buttons">
+        <div class="container">
 
-        <div class="header-img">
-            <h2>Professional Medical Laboratories Services</h2>
-            <p>Please choose your desirable department</p>
-        </div>
-        <div class="three" style=" background-image: url(../images/lab.png); ">
-            <div class="overlay-1"></div>
-            <div class="icon-big animated bounceInDown" >
-             <img src="images/icons/bag.png" alt="" title="">
-             <h3>Medical</h3>
-            </div>
-
-            <div class="icon-micro hidden animated  bounceInUp" >
-                <h3>You Are</h3>
-                <div class="row">
-                        <div class="col-xs-6">
-                        
-                             <img src="images/icons/micro-dr.png" alt="" title="">
-                             <h4>Docter</h4>
-
-                        </div> 
-                        <div class="col-xs-6">
-                            <img src="images/icons/micro-bed.png" alt="" title="">
-                            <h4>Patien</h4>
-                      </div>
+                <button  data-target="dropdowen-btn-1" class="btn">Oncology</button>
+                <button   data-target="dropdowen-btn-2" class="btn">Oncology</button>
+                <button   data-target="dropdowen-btn-3" class="btn">Oncology</button>
+                <button  data-target="dropdowen-btn-4" class="btn">Oncology</button>
+           
+                <div class="btn-drop">
+                <div class="hidden animated bounceInLeft" id="dropdowen-btn-1">
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button> 
+                </div> 
+                
+                <div class="hidden  animated bounceInLeft" id="dropdowen-btn-2">
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button> 
                 </div>
-           </div>
-                                
-           </div>
-
-
-        <div class="three" style=" background-image: url(../images/keyboard.png); ">
-            <div class="overlay-2"></div>
-            <div class="icon-big" >
-                    <img src="images/icons/search.png" alt="" title="">
-                    <h3>Re-Search</h3>
-
-           </div>
-                    <div class="icon-micro" >
-                            <img src="images/icons/search.png" alt="" title="">
-                            <h3>Re-Search</h3>
-        
-                   </div>
-    
-        </div>
-
-
-        <div class="three" style=" background-image: url(../images/caw.png); ">
-            <div class="overlay-3"></div>
-            <div class="icon-big animated bounceInDown" >
-                    <img src="images/icons/caw.png" alt="" title="">
-                    <h3>Animal & Food</h3>
-        
-                    </div>
-            <div class="icon-micro hidden animated  bounceInUp" >
-                <h3>You Are</h3>
-                <div class="row">
-                        <div class="col-xs-6">
-                        
-                             <img src="images/icons/micro-plant.png" alt="" title="">
-                             <h4>Docter</h4>
-
-                        </div> 
-                        <div class="col-xs-6">
-                            <img src="images/icons/micro-caw.png" alt="" title="">
-                            <h4>Patien</h4>
-                      </div>
+                
+                <div class="hidden  animated bounceInLeft" id="dropdowen-btn-3">
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button> 
                 </div>
-           </div>
-        </div>
-    </div>
-    </section>
-
-
-    <section class="last-content">
-        <div class="container-fluid">
-        <div class="row">
-                <div class="col-sm-4 col-xs-12">
-                    <div class="video">
-                        <video class="img-responsive" id="video"width="400" poster="images/poster.png">
-                                <source src="type-script.mp4" type="video/mp4">                             
-                              </video>
-                              <i class="far fa-play-circle" id="far"></i>
-                            </div>
-                </div> <!-- End Col-sm-4-->
-                <div class="col-sm-8 col-xs-12">
-                    <div class="content">
-                    <h3><strong>Color</strong>Medical Laboratories</h3>
-                    <p>Microbiology receives almost any clinical specimen, including swabs, feces, urine, blood, sputum, cerebrospinal fluid, 
-                            synovial fluid, as well as possible infected tissue. The work here is mainly concerned with cultures, to look for suspected 
-                            pathogens which, if found, are further identified based on biochemical tests. Also, sensitivity testing is carried out to 
-                            determine whether the pathogen is sensitive or resistant to a suggested medicine. Results are reported with the identified 
-                            organism(s) and the type and amount of drug(s) that should be prescribed for the patient.</p>
-               
-                        </div>
-                     </div> <!-- End Col-sm-8-->
+                
+                <div class="hidden  animated bounceInLeft" id="dropdowen-btn-4">
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button>
+                        <button class="btn">Oncology</button> 
+                </div>
             </div>
         </div>
-        <footer> 
+      </section>
+      <footer> 
             <div class="container-fluid">
             <ul class="nav navbar-nav hidden-xs">
                 <li><a href="#">Home</a></li>
@@ -170,11 +125,88 @@
 
             </div>
             </footer>
-    </section>
+
+             <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            
+            <div class="modal-body">
+                    <div class="container">
+                            <h2> Registration Form</h2>
+                            <form class="form-horizontal" action="/action_page.php">
+<div class="col-sm-3">
+    
+    <div class="form-group">
+    <input type="name" class="form-control" id="name" placeholder="Enter Your name" name="name">
+    </div> 
+
+    <div class="form-group">
+    <input type="text" class="form-control" id="National-id" placeholder="National ID" name="National-id">
+    </div>
+
+    <div class="form-group">
+    <input type="text" class="form-control" id="clnic-name" placeholder="Clnic Name" name="clnic-name">
+    </div>  
+
+    <div class="form-group">
+    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>  
+
+    <div class="form-group">
+    <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+
+    </div>
+</div>
+
+
+
+                           
+<div class="col-sm-3 col-sm-offset-1">
+    <label> <strong>ID </strong> CCCLLYYMMM</label>                             
+    <div class="form-group">                                   
+        <select class="form-control" >
+        <option value="Speciality">Speciality</option>
+        <option value="eyes">Eyes</option>
+        <option value="head">head</option>
+        <option value="arm">arm</option>
+        </select>             
+    </div>
+    <div class="form-group">
+
+        <input type="phon" class="form-control" id="phon" placeholder="Phon number" name="phon">
+    </div>
+    <div class="form-group">
+
+         <input type="number" class="form-control" id="clnic-number" placeholder="clnic number" name="clnic-number">
+    </div>
+    <div class="form-group">
+
+         <input type="password" class="form-control" id="password-confirm" placeholder="Confirme password" name="password">
+    </div>
+    </div>
+
+<div class="form-group">        
+    <div class=" col-sm-10">
+        <button type="submit" class=" btn btn-default">Submit</button>
+        </div>
+    </div>
+</form>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
 <!-- SCRIPTS -->
 <script type="text/javascript" src="js/JQuery.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script type="text/javascript" src="js/scripts.js"></script>
 <!-- /SCRIPTS -->
