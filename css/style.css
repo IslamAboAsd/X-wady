@@ -1,0 +1,277 @@
+p{
+    margin: 0
+}
+button:focus { outline: none!important; }
+
+.navbar{
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+#myNavbar{
+    padding-top: 8px
+}
+.navbar-header{
+margin-right:214px!important;
+margin-left:100px!important;
+color: #034da5;
+}
+.navbar-header strong{
+ font-size: 26px;
+  margin: 0
+}
+
+.logo-head{
+    display: inline-block;
+  
+    top: 12px;
+    left: 180px;
+}
+    
+
+.logo-head span {
+    position: absolute;
+    left: 176px;
+    top: 41px;
+
+}
+
+.navbar-nav>li>a{
+    margin-left: 30px!important;
+    color: #034da5;
+
+}
+.navbar-nav .fab{
+    padding: 7px;
+    border: 1px solid #034da5;
+    margin-right: 4px;
+    color: #034da5;
+    margin-top: 12px;
+    transition: all ease-in-out .5s;
+    cursor: pointer
+}
+.navbar-nav .fab:hover{
+    
+
+    background-color: #034da5;
+    color: #fff;
+}
+
+.main{
+    border-bottom: 3px solid #fff
+}
+.header-img{
+    position: absolute;
+    top: 187px;
+    z-index: 1;
+    left: 23%;
+}
+.header-img h2{
+    color: #fff;
+    font-size: 39px
+}
+.header-img p{
+    color: #f8f7f4;
+    margin: 0 107px;
+    font-size: 28px
+}
+
+.three{
+    width: calc(100%/3);
+    float: left;
+    height: 550px;
+    background-size: cover;
+    position: relative;
+}
+.overlay-1{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #0249bb70
+}
+.overlay-2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #6f499270
+}
+.overlay-3{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  #eeb61b60
+}
+.icon-big{
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    z-index: 99999;
+    transition: all ease-in-out .5s;
+
+}
+.icon-big h3, .icon-micro h3{
+    color: #fff;
+    font-size: 33px
+}
+.icon-micro{
+  transition: all ease-in-out .5s;
+    position: absolute;
+    top: 42%;
+    left: 32%;
+    z-index: 99999;
+}
+.icon-micro h4{
+    color: #fff;
+    font-size: 25px
+}
+
+.last-content{
+    background-image: url(../images/footer-bg.png);
+    background-size: cover
+}
+.last-content p, .last-content h3{
+    color: #fff;
+}
+.video{
+    position: relative;
+    margin: 30px;
+    cursor: pointer;
+}
+.video i{
+    position: absolute;
+    top: 34%;
+    left: 44%;
+    font-size: 60px;
+    color: #fff;
+}
+.content {
+    padding-top: 30px
+}
+.content h3{
+    color: #e4e4e4;
+    font-size: 20px
+}
+.content h3 strong{
+    font-size: 38px;
+    margin-right: 15px
+}
+.content p{
+    color: #e4e4e4;
+    text-align: justify
+}
+footer{
+    border-top: 2px solid #fff;
+    height: 67px;
+}
+footer .navbar-nav>li>a{
+    color: #fff
+}
+.navbar-nav>li>a{
+    padding-bottom: 5px;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+ 
+}
+ .navbar-nav>li>a:hover,  .navbar-nav>li>a:focus{
+    background-color: transparent;
+    border-bottom: 2px solid #eeb61b;
+    transition: border-bottom ease-in-out .5s
+}
+.navbar-nav>li.activ{
+    background-color: transparent
+}
+
+header{
+    background-image: url(../images/DR-bg.png);
+    background-size: cover;
+    height: 300px
+}
+.top-header {
+   padding-top: 70px;
+   margin-left:38%;
+   color: #fff
+}
+.top-header h2{
+font-weight:bold 
+}
+.top-header button{
+    margin: 25px 20px;
+    display: inline-block;
+    padding: 8px 25px;
+    border: none;
+    color: #fff
+}
+.top-header button:hover{
+    box-shadow:1px 2px 6px 3px #fffdfd1f, -1px 2px 6px 3px #fafafa57
+}
+.buttons{
+    background-color: #065499;
+    padding-left: 25%;
+    padding-top: 20px
+}
+ .btn{
+    border-right-width: 15px;
+    border-right-color: #fff;
+    border-radius: 15px;
+    background-color: transparent;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-left: 30px;
+    padding: 3px 30px
+}
+.btn:hover, .btn:focus{
+    color: #c4c4c5
+}
+.btn-drop{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.border-color{
+    border-color: #0087ff;
+    color: #0087ff
+}
+.btn-default{
+    background-color: #704a92;
+    color: #fff;
+    border-radius: 0;
+    border:0;
+    margin-left: 0;
+    padding: 7px ;
+    font-size: 18px;
+    transition: all ease-in-out .5s;
+    width: 63%
+}
+.btn-default:hover{
+    color: #333;
+
+}
+.col-sm-offset-1{
+    margin-left: 3.33%
+}
+.modal-dialog{
+    width: 650px;
+}
+.modal-content{
+    border-radius: 25px
+
+}
+.modal-content strong{
+    font-size: 25px;
+    color: #704a92
+}
+.navbar-toggle{
+    background-color: #333;
+    position: absolute;
+    right: 5px;
+}
+.navbar-toggle .icon-bar{
+    background-color: #fff;
+  
+}

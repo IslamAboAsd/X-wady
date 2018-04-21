@@ -1,0 +1,145 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 680px) {
+
+    .modal-dialog{
+        width: auto
+    }
+    .logo-head{
+        position: absolute;
+        left: 10px;
+        top: 0;
+        width:50%
+    }
+    .logo-head span{
+        top: 27px;
+        position: absolute;
+        left: 46px;
+    }
+
+    .logo-head img{
+       height: 50px;
+    }
+    .three{
+        width: 100%
+    }
+    .header-img{
+       
+        text-align: center;
+        left: auto;
+        top: 100px
+    }
+    .header-img h2{
+        margin: 10px;
+        font-size: 26px
+    }
+    .header-img p{
+       margin: 10px;
+        font-size: 15px
+    }
+
+
+    .navbar{
+        position: fixed;
+        top: -10px;
+        z-index: 999999;
+        left: 0;
+        right: 0;
+        background: #fff;
+        height: 55px;
+    }
+
+
+    .navbar .in{
+        position: absolute;
+        background-color: rgba(36, 35, 35, 1);
+        border: 2px solid #382607;
+        z-index: 4;
+        top: 51px;
+        left: 0;
+        right: 0;
+        text-align: center
+       
+    }
+    .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
+        margin: 0
+    }
+    .modal-dialog{
+        margin-top: 65px
+    }
+    .btn-default{
+        margin-left: 18%
+    }
+    .navbar-nav>li>a{
+        margin-left: 0!important;
+        color: #fff
+}
+.top-header{
+    margin: 0 14%
+}
+.top-header button{
+    margin: 15px  5px
+}
+.buttons{
+    padding: 10px 25px
+}
+.buttons .btn{
+    margin-left: 0;
+    display: block
+}
+.btn-drop{
+    position: absolute;
+    bottom: 217px;
+    right: 20px
+}
+.content p{
+    margin-bottom: 30px
+}
+footer{
+    height: auto
+} 
+footer .navbar-right{
+    margin: 15px;
+   
+}
+   
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .modal-dialog{
+        width: auto
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .modal-dialog{
+        width: 660px
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    .logo-head{
+        left: 15px
+    }
+    
+    .navbar-collapse .navbar-right{
+        margin: 10px 31%
+    }
+    .navbar-right li{
+        display: inline-block
+    }
+    .video {
+        margin: 5px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
